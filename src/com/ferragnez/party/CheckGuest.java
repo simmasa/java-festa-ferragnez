@@ -27,6 +27,7 @@ public class CheckGuest {
 
             if (nome.equalsIgnoreCase(listaInvitati[i])) {
                 invitato = true;
+                //break;
             }
 
         }
